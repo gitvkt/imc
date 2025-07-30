@@ -1,0 +1,13 @@
+#Entrada de nome via input
+nome=(input("Digite seu nome aqui:"))
+
+#Entrada de peso via input
+peso=float(input("Digite o peso aqui:"))
+
+#Entrada de peso via input
+altura=float(input("Digite sua altura aqui:"))
+imc = peso / altura **2
+
+#Impressão do cáculo na tela
+print("Concluído!")
+print(nome, "Seu IMC é:", imc)
